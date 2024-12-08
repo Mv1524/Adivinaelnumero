@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5F1"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:marginBottom="20dp"
+        android:text="¡Adivina el número!"
+        android:textColor="#6A1B9A"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D7CCC8"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Introduce un número del 1 al 100"
+        android:textColor="#00796B"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etNumberInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF8E1"
+        android:hint="Escribe tu número aquí"
+        android:inputType="number"
+        android:marginTop="16dp"
+        android:padding="10dp"
+        android:textColor="#5D4037" />
+
+    <Button
+        android:id="@+id/btnGuess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFAB91"
+        android:marginTop="16dp"
+        android:text="Adivinar"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvAttempts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:marginTop="16dp"
+        android:text="Intentos restantes: 10"
+        android:textColor="#C2185B"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B39DDB"
+        android:marginTop="16dp"
+        android:text="Reiniciar juego"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
